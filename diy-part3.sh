@@ -42,4 +42,7 @@ config rule
         option dest_ip '224.0.0.0/4'
         option proto 'udp'
         option target 'ACCEPT'
+        
+        CONFIG_TARGET_DEVICE_mediatek_mt7986_DEVICE_netcore_n60pro-512rom=y
+        CONFIG_TARGET_DEVICE_PACKAGES_mediatek_mt7986_DEVICE_netcore_n60pro-512rom=""
 EOF
